@@ -1,0 +1,217 @@
+.service{
+    background-color:#EDF2EC;
+}
+.service__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#EDF2EC;
+    .blur{
+        width: 332px;
+        height: 464px;
+       background: black;
+    }
+
+    .service-content{
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+        padding-top: 7px;
+        padding-left: 18px;
+    }
+    .serviceh2{
+            font-family: 'Inika';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 52px;
+            width: 306px;
+            color: #499A18;
+            cursor: pointer;
+        }
+        .buttons-service{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 559px;
+            height: 51px;
+            padding-top: 3px;
+            padding-right: 235px;
+            .button2{
+                cursor: pointer;
+            }
+        }
+
+}
+.services{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 49px 12.5px 92px 12.5px;
+        .service-item1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            cursor: pointer;
+            .img-services{
+                display: block;
+            }
+
+        }
+        .rectangle{
+            width: 330px;
+            text-align: center;
+            border: 1px solid #E3E1D5;
+            border-radius: 0px 0px 20px 20px;
+            margin: 0 ;
+            padding-top: 5px;
+            .serviceh3{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            color: #E06733;
+            margin: 0;
+
+        }
+        .service-description{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #717171;
+            padding-bottom: 15px;
+        }
+
+        }
+
+        }
+        @media(max-width:768px){
+            .service{
+                .service__wrapper{
+                    .service-content{
+                        flex-direction: column;
+                        .serviceh2{
+                            padding-right: 380px;
+                            font-family: 'Inika';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 35px;
+                            line-height: 46px;
+                            width: 306px;
+                            padding-top: 22px;
+                        }
+                        .buttons-service{
+                            padding-top: 14px;
+                            padding-left: 105px;
+                        }
+
+                    }
+                }
+                .services{
+                    padding: 40px 49px;
+                    gap: 10px;
+                    .service-item1{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                            padding-bottom: 29px;
+                            .img-services{
+                                display: block;
+                            }
+                        .rectangle{
+                            width: 280px;
+                            height: 91px;
+                        }
+                        .serviceh3{
+                            padding-top: 3px;
+                            padding-right: 3px;
+                        }
+                        .service-description{
+                            width: 201px;
+                            padding-left: 37px;
+                            margin: 11px 0px 0px 0px;
+                        }
+                    }
+                }
+            }
+        }
+        @media(max-width:580px){
+            .service{
+                .service__wrapper{
+                    .service-content{
+                        flex-direction: column;
+                        .serviceh2{
+                            padding: 0px 0px 0px 0px;
+                            margin: 22px 160px 0px 0px ;
+                            width: 187px;
+                            height: 69px;
+                            font-family: 'Inika';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 25px;
+                            line-height: 33px;
+                            color: #499A18;
+                        }
+                        .buttons-service{
+
+                            padding: 0px 0px 0px 0px;
+                            margin: 34px 96px 0px 0px;
+                            width: 252px;
+                            height: 79px;
+                            flex-wrap: wrap;
+                            gap: 8px;
+                            .button2{
+                                width: 121px;
+                                height: 35px;
+                                padding: 4px 29px;
+                                font-family: 'Inika';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 15px;
+                                line-height: 20px;
+                                text-align: center;
+                                color: #E06733;
+                            }
+                        }
+
+                    }
+                }
+                .services{
+                    padding: 21px 17px;
+
+                    .service-item1{
+                        margin: 19px 0px 0px 33px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                            padding-bottom: 7px;
+                            .img-services{
+                                display: block;
+                            }
+                        .rectangle{
+                            width: 280px;
+                            height: 91px;
+                        }
+                        .serviceh3{
+                            padding-top: 3px;
+                            padding-right: 3px;
+                        }
+                        .service-description{
+                            width: 201px;
+                            padding-left: 37px;
+                            margin: 11px 0px 0px 0px;
+
+                        }
+                    }
+                }
+            }
+        }
+
+
